@@ -2,6 +2,7 @@ package comks_kim.github.etherwifi;
 
 // import android.app.FragmentTransaction;
 import android.Manifest;
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.ActivityCompat;

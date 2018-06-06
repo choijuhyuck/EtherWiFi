@@ -6,7 +6,7 @@ public class RecyclerViewItem {
     private Drawable icon;
     private String ssid;
     private String price;
-    private String bssid;
+    private int rssi;
 
     public Drawable getIcon() {
         return icon;
@@ -30,6 +30,14 @@ public class RecyclerViewItem {
 
     public void setPrice(String price) {
         this.price = price;
+    }
+
+    public int getRssi() {
+        return rssi;
+    }
+
+    public void setRssi(int rssi) {
+        this.rssi = rssi;
     }
 
 }
