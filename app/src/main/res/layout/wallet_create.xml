@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fe863f"
+    android:orientation="vertical"
+    tools:context="comks_kim.github.etherwifi.init_page.WalletCreate">
+
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_gravity="center"
+        style="@style/TextStyle_Button"
+        android:text="Create New Wallet" />
+
+    <Button
+        android:id="@+id/dolater_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/TextStyle_Button"
+        android:text="Do it Later" />
+
+
+
+</LinearLayout>

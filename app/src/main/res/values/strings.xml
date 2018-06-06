@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EtherWiFi</string>
+    <string name="title_wifi_list">Wi-Fi</string>
+    <string name="title_sharing_list">List</string>
+    <string name="title_wallet">Wallet</string>
+
+    <string name="title_activity_init__wallet_create">Init_WalletCreate</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

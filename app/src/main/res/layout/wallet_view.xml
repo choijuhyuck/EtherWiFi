@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f6ff"
+    android:orientation="vertical"
+    tools:context="comks_kim.github.etherwifi.init_page.WalletCreate">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:text="지갑이 생성되었습니다." />
+
+    <Button
+        android:id="@+id/complete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        style="@style/TextStyle_Button"
+        android:text="완 료" />
+
+
+
+</LinearLayout>
