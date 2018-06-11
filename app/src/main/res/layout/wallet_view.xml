@@ -9,12 +9,14 @@
 
 
     <TextView
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:textSize="20dp"
+        android:textSize="100dp"
         android:layout_gravity="center"
-        android:text="지갑이 생성되었습니다." />
+        android:textColor="@color/black_overlay"
+        android:text="11111" />
 
     <Button
         android:id="@+id/complete_button"
